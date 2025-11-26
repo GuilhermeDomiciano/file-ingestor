@@ -131,17 +131,3 @@ curl -s "http://localhost:4566/restapis/${API_ID}/dev/_user_request_/files/test.
   ```bash
   docker logs --tail=200 localstack
   ```
-
----
-
-## 📦 O que entregar
-- **Link do repositório (público)** com este projeto.  
-- **GIF curto** (ou 3–4 screenshots) mostrando:  
-  ➊ upload → ➋ Lambda ativa/log → ➌ item no Dynamo `PROCESSED` → ➍ `GET /files` e `GET /files/{id}`.  
-- **Comando único** de subida e derrubar (acima).  
-- **Breve explicação** das decisões (seção “Decisões”).
-
----
-
-## 🖼️ Dica para o GIF (Windows)
-- Use **ScreenToGif** (30–45s): mostrar upload, `scan` do Dynamo, `GET /files` e `GET /files/test.txt`.
